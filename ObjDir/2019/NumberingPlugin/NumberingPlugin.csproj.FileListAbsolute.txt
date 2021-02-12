@@ -1,0 +1,11 @@
+C:\Users\Егор\Documents\Работа\КГЦМ\Решения (офисный компьютер)\NumberingPlugin\NumberingPlugin\bin\Debug\NumberingPlugin.dll
+C:\Users\Егор\Documents\Работа\КГЦМ\Решения (офисный компьютер)\NumberingPlugin\NumberingPlugin\bin\Debug\NumberingPlugin.pdb
+C:\Users\Егор\Documents\Работа\КГЦМ\Решения (офисный компьютер)\NumberingPlugin\NumberingPlugin\bin\Debug\TeklaCustomNumbering.dll
+C:\Users\Егор\Documents\Работа\КГЦМ\Решения (офисный компьютер)\NumberingPlugin\NumberingPlugin\bin\Debug\TeklaCustomNumbering.pdb
+C:\Users\Егор\Documents\Работа\КГЦМ\Решения (офисный компьютер)\NumberingPlugin\ObjDir\2019\NumberingPlugin\NumberingPlugin.csprojAssemblyReference.cache
+C:\Users\Егор\Documents\Работа\КГЦМ\Решения (офисный компьютер)\NumberingPlugin\ObjDir\2019\NumberingPlugin\NumberingPlugin.NumberingPluginForm.resources
+C:\Users\Егор\Documents\Работа\КГЦМ\Решения (офисный компьютер)\NumberingPlugin\ObjDir\2019\NumberingPlugin\NumberingPlugin.csproj.GenerateResource.cache
+C:\Users\Егор\Documents\Работа\КГЦМ\Решения (офисный компьютер)\NumberingPlugin\ObjDir\2019\NumberingPlugin\NumberingPlugin.csproj.CoreCompileInputs.cache
+C:\Users\Егор\Documents\Работа\КГЦМ\Решения (офисный компьютер)\NumberingPlugin\ObjDir\2019\NumberingPlugin\NumberingPlugin.csproj.CopyComplete
+C:\Users\Егор\Documents\Работа\КГЦМ\Решения (офисный компьютер)\NumberingPlugin\ObjDir\2019\NumberingPlugin\NumberingPlugin.dll
+C:\Users\Егор\Documents\Работа\КГЦМ\Решения (офисный компьютер)\NumberingPlugin\ObjDir\2019\NumberingPlugin\NumberingPlugin.pdb

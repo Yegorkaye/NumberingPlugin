@@ -35,14 +35,29 @@ namespace TeklaCustomNumbering
             {
                 var assemblyId = drawing.AssemblyIdentifier;
                 var assembly = new Model().SelectModelObject(assemblyId) as Assembly;
-                var mainPart = assembly.GetMainPart() as Part;
-                if (mainPart != null)
+                if (assembly.AssemblyNumber.Prefix.StartsWith("SA"))
                 {
-                    var markParam = "";
-                    mainPart.GetUserProperty("DWG_N", ref markParam);
-                    var markRev = "";
-                    mainPart.GetUserProperty("REV_DWG", ref markRev);
-                    drawing.SetUserProperty("DR_SET_PLOT", $"{markParam}_{markRev}");
+                    var mainPart = assembly.GetMainPart() as Part;
+                    if (mainPart != null)
+                    {
+                        var markParam = "";
+                        mainPart.GetUserProperty("SA_DWG_N", ref markParam);
+                        var markRev = "";
+                        mainPart.GetUserProperty("SA_REV_DWG", ref markRev);
+                        drawing.SetUserProperty("DR_SET_PLOT", $"{markParam}_{markRev}");
+                    }
+                }
+                else
+                {
+                    var mainPart = assembly.GetMainPart() as Part;
+                    if (mainPart != null)
+                    {
+                        var markParam = "";
+                        mainPart.GetUserProperty("DWG_N", ref markParam);
+                        var markRev = "";
+                        mainPart.GetUserProperty("REV_DWG", ref markRev);
+                        drawing.SetUserProperty("DR_SET_PLOT", $"{markParam}_{markRev}");
+                    }
                 }
             }
         }

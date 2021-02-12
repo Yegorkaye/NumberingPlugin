@@ -10,6 +10,22 @@ namespace TeklaCustomNumbering
 {
     public class PluginObjectSelector
     {
+        public List<Assembly> GetSelectedSubAssemblies()
+        {
+            var modelObjectSelector = new Tekla.Structures.Model.UI.ModelObjectSelector();
+            var selectedObjects = modelObjectSelector.GetSelectedObjects();
+            var subAssemblies = new List<Assembly>();
+
+            while (selectedObjects.MoveNext())
+            {
+                if (selectedObjects.Current is Assembly assembly && assembly.AssemblyNumber.Prefix.StartsWith("SA"))
+                {
+                    subAssemblies.Add(assembly);
+                }
+            }
+            return subAssemblies;
+        }
+
         public List<Part> GetSelectedParts()
         {
             var modelObjectSelector = new Tekla.Structures.Model.UI.ModelObjectSelector();

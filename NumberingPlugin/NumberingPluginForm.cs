@@ -77,5 +77,27 @@ namespace NumberingPlugin
 
             drawingNumerator.Number(drawings);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var parseResult = int.TryParse(SAStartNumberTextBox.Text, out int initialMarkNumber);
+            if (parseResult)
+            {
+                var objSelector = new PluginObjectSelector();
+                var subAssemblies = objSelector.GetSelectedSubAssemblies();
+                var saNumerator = new SubAssemblyNumerator();
+                saNumerator.ProjectCode = projectCodeTextBox.Text;
+                saNumerator.InitialNumber = initialMarkNumber;
+                saNumerator.Number(subAssemblies);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var objSelector = new PluginObjectSelector();
+            var subAssemblies = objSelector.GetSelectedSubAssemblies();
+            var saNumerator = new SubAssemblyNumerator();
+            saNumerator.ClearNumbers(subAssemblies);
+        }
     }
 }
