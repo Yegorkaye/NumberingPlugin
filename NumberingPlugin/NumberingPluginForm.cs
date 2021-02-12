@@ -1,12 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+
 using TeklaCustomNumbering;
 
 namespace NumberingPlugin
@@ -66,6 +60,22 @@ namespace NumberingPlugin
             var selectedMarks = objectSelector.GetPartsAssemblies();
             var markNumerator = new AssemblyNumerator();
             markNumerator.ClearNumbers(selectedMarks);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var drawingHandler = new Tekla.Structures.Drawing.DrawingHandler();
+            var selectedDrawings = drawingHandler.GetDrawingSelector().GetSelected();
+            var drawingNumerator = new DrawingNumerator();
+
+            var drawings = new List<Tekla.Structures.Drawing.Drawing>();
+
+            while (selectedDrawings.MoveNext())
+            {
+                drawings.Add(selectedDrawings.Current);
+            }
+
+            drawingNumerator.Number(drawings);
         }
     }
 }
