@@ -44,7 +44,7 @@ namespace TeklaCustomNumbering
                         mainPart.GetUserProperty("SA_DWG_N", ref markParam);
                         var markRev = "";
                         mainPart.GetUserProperty("SA_REV_DWG", ref markRev);
-                        drawing.SetUserProperty("DR_SET_PLOT", $"{markParam}_{markRev}");
+                        drawing.SetUserProperty("DR_SET_PLOT", $"{markParam}");
                     }
                 }
                 else
@@ -56,7 +56,7 @@ namespace TeklaCustomNumbering
                         mainPart.GetUserProperty("DWG_N", ref markParam);
                         var markRev = "";
                         mainPart.GetUserProperty("REV_DWG", ref markRev);
-                        drawing.SetUserProperty("DR_SET_PLOT", $"{markParam}_{markRev}");
+                        drawing.SetUserProperty("DR_SET_PLOT", $"{markParam}");
                     }
                 }
             }
@@ -72,7 +72,7 @@ namespace TeklaCustomNumbering
                 part.GetUserProperty("SP_DWG_N", ref partParam);
                 var partRev = "";
                 part.GetUserProperty("SP_REV_DWG", ref partRev);
-                drawing.SetUserProperty("DR_SET_PLOT", $"{partParam}_{partRev}");
+                drawing.SetUserProperty("DR_SET_PLOT", $"{partParam}");
             }
         }
     }
