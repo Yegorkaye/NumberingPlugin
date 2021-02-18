@@ -4,3 +4,9 @@ C:\Users\Егор\Documents\Работа\КГЦМ\Решения (офисный
 C:\Users\Егор\Documents\Работа\КГЦМ\Решения (офисный компьютер)\NumberingPlugin\ObjDir\2019\TeklaCustomNumbering\TeklaCustomNumbering.csproj.CoreCompileInputs.cache
 C:\Users\Егор\Documents\Работа\КГЦМ\Решения (офисный компьютер)\NumberingPlugin\ObjDir\2019\TeklaCustomNumbering\TeklaCustomNumbering.dll
 C:\Users\Егор\Documents\Работа\КГЦМ\Решения (офисный компьютер)\NumberingPlugin\ObjDir\2019\TeklaCustomNumbering\TeklaCustomNumbering.pdb
+C:\Users\KGCM\source\repos\NumberingPluginSolution\TeklaCustomNumbering\bin\Release\TeklaCustomNumbering.dll
+C:\Users\KGCM\source\repos\NumberingPluginSolution\TeklaCustomNumbering\bin\Release\TeklaCustomNumbering.pdb
+C:\Users\KGCM\source\repos\NumberingPluginSolution\ObjDir\2019\TeklaCustomNumbering\TeklaCustomNumbering.csprojAssemblyReference.cache
+C:\Users\KGCM\source\repos\NumberingPluginSolution\ObjDir\2019\TeklaCustomNumbering\TeklaCustomNumbering.csproj.CoreCompileInputs.cache
+C:\Users\KGCM\source\repos\NumberingPluginSolution\ObjDir\2019\TeklaCustomNumbering\TeklaCustomNumbering.dll
+C:\Users\KGCM\source\repos\NumberingPluginSolution\ObjDir\2019\TeklaCustomNumbering\TeklaCustomNumbering.pdb
